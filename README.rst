@@ -18,7 +18,7 @@ utilities to display data as part of Microsoft Word files.
 Graphical Tools (using matplotlib)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: docs/_static/output-example-1.png
+.. image:: docs/_static/images/output-example-1.png
 
 Docx Tools (interact with Microsoft Word files)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
