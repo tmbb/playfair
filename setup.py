@@ -1,17 +1,17 @@
 import setuptools
 
 install_requirements = [
-  'matplotlib',
-  'python-docx'
+    'matplotlib',
+    'python-docx'
 ]
 
 test_requirements = [
-  'hypothesis',
-  'pytest'
+    'hypothesis',
+    'pytest'
 ]
 
 SHORT_DESCRIPTION = 'Utilities for visualizing and publishing research data'
-LONG_DESCRIPTION = 'SHORT_DESCRIPTION
+LONG_DESCRIPTION = SHORT_DESCRIPTION
 
 setuptools.setup(
     name='playfair-pkg-tmbb',
@@ -35,5 +35,8 @@ setuptools.setup(
     install_requires=install_requirements,
     test_requires=test_requirements,
     packages=setuptools.find_packages(where="src"),
+    package_data={
+        "": ["*.docx"]
+    },
     zip_safe=False
 )
