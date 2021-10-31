@@ -39,10 +39,9 @@ Graphical Tools (using matplotlib)
     fig, ax = plt.subplots(1)
     ax.boxplot([d1, d2, d3, d4], labels=["A+", "B-", "C", "d-"])
     add_comparisons_to_axes(ax, comps, debug=False)
+    # Set the ylims manually because matplotlib isn't smart enough
+    # to scale things such that the markers fit in the plot
     ax.set_ylim(0, 12)
-    fig.set_size_inches(6, 6)
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    fig.savefig(os.path.join(dir_path, 'fixtures/output-example-1.png'))
 
 .. image:: docs/_static/images/output-example-1.png
 
