@@ -18,7 +18,7 @@ utilities to display data as part of Microsoft Word files.
 Graphical Tools (using matplotlib)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: python
+.. code:: python
     :linenothreshold: 5
 
     from playfair.compare import add_comparisons_to_axes, Comparison, stars
