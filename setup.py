@@ -14,7 +14,7 @@ SHORT_DESCRIPTION = 'Utilities for visualizing and publishing research data'
 LONG_DESCRIPTION = SHORT_DESCRIPTION
 
 setuptools.setup(
-    name='playfair-pkg-tmbb',
+    name='python-playfair',
     version='0.1',
     description='Utilities for visualizing and publishing research',
     long_description=LONG_DESCRIPTION,
