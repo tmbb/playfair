@@ -21,7 +21,7 @@ Graphical Tools (using matplotlib)
 Examples
 ''''''''
 
-**Example 2:** Plotting a single comparison marker.
+**Example 1:** Plotting a single comparison marker.
 
 .. code:: python
 
@@ -50,7 +50,7 @@ Examples
 .. image:: docs/_static/images/example1.png
 
 
-**Example 3:** Plotting two comparison markers.
+**Example 2:** Plotting two comparison markers.
 
 
 .. code:: python
@@ -78,7 +78,6 @@ Examples
     # to scale things such that the markers fit in the plot
     ax.set_ylim(0, 4)
     fig.savefig('docs/_static/images/example2.png')
-
 
 
 .. image:: docs/_static/images/example2.png
